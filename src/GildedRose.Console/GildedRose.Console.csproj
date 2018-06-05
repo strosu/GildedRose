@@ -41,6 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Strategies\AgedBrieStrategy.cs" />
+    <Compile Include="Strategies\BackstageStrategy.cs" />
+    <Compile Include="Strategies\ConjuredItemStrategy.cs" />
+    <Compile Include="Strategies\DefaultItemStrategy.cs" />
+    <Compile Include="ItemWrapper.cs" />
+    <Compile Include="ItemWrapperFactory.cs" />
+    <Compile Include="Strategies\LegendaryStrategy.cs" />
+    <Compile Include="Strategies\IStrategy.cs" />
+    <Compile Include="ItemExtensions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
